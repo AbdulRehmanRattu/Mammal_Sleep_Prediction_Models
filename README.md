@@ -1,5 +1,20 @@
 # Mammalian Sleep Architecture and Neurobiological Predictive Modeling
 
+<div align="center">
+
+[<img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License">](https://opensource.org/licenses/Apache-2.0)
+<img src="https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-3776AB.svg?logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/Vision-PyTorch%20%7C%20OpenCV-EE4C2C.svg?logo=pytorch&logoColor=white" alt="Vision">
+<img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg" alt="Status">
+
+**Enterprise-grade, high-performance implementation built and maintained by Abdul Rehman Rattu.**
+
+[Overview](#overview) • [Key Features](#key-features) • [Installation & Usage](#quickstart--usage) • [Author & Maintainer](#author--maintainer)
+
+</div>
+
+---
+
 ## Overview
 
 Sleep duration and neurological sleep states (Slow-Wave vs. REM / Paradoxical Dreaming) vary drastically across mammalian species, governed by complex evolutionary trade-offs among brain mass, metabolic body size, predation risk, and gestational development.
@@ -7,7 +22,6 @@ Sleep duration and neurological sleep states (Slow-Wave vs. REM / Paradoxical Dr
 This project implements a multi-target regression pipeline engineered to model and forecast two distinct neurological sleep parameters (`TotalSleep` and `Dreaming` duration) across diverse mammalian taxa. The framework benchmarks multivariate ordinary least squares (OLS) regression against gradient-boosted decision ensembles (XGBoost), leveraging logarithmic encephalization ratios and ecological risk factors.
 
 ---
-
 
 ---
 
@@ -199,3 +213,15 @@ Run the complete modeling pipeline in Jupyter Notebook:
 ```bash
 jupyter notebook project.ipynb
 ```
+
+---
+
+## Author & Maintainer
+
+**Abdul Rehman Rattu**  
+*Forward Deployed AI Engineer & Solutions Architect*  
+*Founder & Technical Lead, Rapide Technologies*
+
+* **Email**: [rattu786.ar@gmail.com](mailto:rattu786.ar@gmail.com)
+* **LinkedIn**: [linkedin.com/in/abdul-rehman-rattu-395bba237](https://www.linkedin.com/in/abdul-rehman-rattu-395bba237)
+* **GitHub**: [github.com/AbdulRehmanRattu](https://github.com/AbdulRehmanRattu)
