@@ -49,28 +49,10 @@ Sleep patterns vary dramatically across the mammalian class, ranging from under 
 
 ## System Architecture and Workflow
 
-```
-[ Mammalian Ecological Dataset (62 Species, Biometric & Risk Variables) ]
- |
- v
-[ Exploratory Data Analysis & Biological Outlier Identification ]
- + Multi-Feature Distribution Histograms
- + Morphological Outlier Detection & Winsorization
- + Pearson Correlation Matrix
- |
- v
-[ Dual-Target Regressive Modeling Pipeline ]
- ├── Target 1: Total Sleep Duration (Hours / 24 hr)
- └── Target 2: Paradoxical Dreaming / REM Duration (Hours / 24 hr)
- |
- v
-[ Comparative Algorithmic Benchmarking ]
- + Multivariate Linear Regression (OLS Baseline)
- + Gradient Boosted Decision Trees (XGBoost Regressor)
- |
- v
-[ Empirical Evaluation (MSE: 0.1338) & Visual Trajectory Diagnostics ]
-```
+<div align="center">
+  <img src="plots/architecture_pipeline.png" alt="Mammalian Sleep & REM Duration Predictive Pipeline" width="100%">
+  <p><em>Figure 1: High-resolution architecture topology of the Mammalian Sleep Predictive Framework, demonstrating 62-species biometric intake, log-transformation/winsorization, dual-target regressive streams (Total Sleep and REM Dreaming Duration), comparative OLS vs. XGBoost evaluation, and SHAP ecological risk telemetry.</em></p>
+</div>
 
 ---
 
